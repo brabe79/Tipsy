@@ -42,7 +42,7 @@
                   moduleName = "Tipsy"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/brianrabe/Desktop/Tipsy/Tipsy/FirstViewController.swift"
-                  timestampString = "493100512.530241"
+                  timestampString = "493102041.439592"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -57,7 +57,7 @@
                   moduleName = "Tipsy"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/brianrabe/Desktop/Tipsy/Tipsy/FirstViewController.swift"
-                  timestampString = "493100512.530786"
+                  timestampString = "493102041.440286"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "13"
@@ -104,7 +104,7 @@
                   moduleName = "Tipsy"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/brianrabe/Desktop/Tipsy/Tipsy/FirstViewController.swift"
-                  timestampString = "493100512.5319"
+                  timestampString = "493102041.442864"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -119,7 +119,7 @@
                   moduleName = "Tipsy"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/brianrabe/Desktop/Tipsy/Tipsy/FirstViewController.swift"
-                  timestampString = "493100512.532008"
+                  timestampString = "493102041.443136"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -134,7 +134,7 @@
                   moduleName = "Tipsy"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/brianrabe/Desktop/Tipsy/Tipsy/FirstViewController.swift"
-                  timestampString = "493100512.532091"
+                  timestampString = "493102041.443283"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "14"
@@ -157,6 +157,22 @@
             startingLineNumber = "75"
             endingLineNumber = "75"
             landmarkName = "returnUserData()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tipsy/SecondViewController.swift"
+            timestampString = "493102040.090272"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "locationManager(_:didUpdateLocations:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
