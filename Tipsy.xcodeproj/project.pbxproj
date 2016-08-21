@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1B46A56E6C69D25F86CEA35 /* Pods_Tipsy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582B121BC93A54A48A773C9F /* Pods_Tipsy.framework */; };
+		A1B46A56E6C69D25F86CEA35 /* Pods_Tipsy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582B121BC93A54A48A773C9F /* Pods_Tipsy.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		FD14EA911D63DD3D0014BB3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14EA901D63DD3D0014BB3E /* AppDelegate.swift */; };
 		FD14EA931D63DD3D0014BB3E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14EA921D63DD3D0014BB3E /* FirstViewController.swift */; };
 		FD14EA951D63DD3D0014BB3E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14EA941D63DD3D0014BB3E /* SecondViewController.swift */; };
@@ -17,6 +17,12 @@
 		FD14EAA81D63DD3D0014BB3E /* TipsyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14EAA71D63DD3D0014BB3E /* TipsyTests.swift */; };
 		FD14EAB31D63DD3D0014BB3E /* TipsyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14EAB21D63DD3D0014BB3E /* TipsyUITests.swift */; };
 		FD14EAC11D63EBA70014BB3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD14EAC01D63EBA70014BB3E /* GoogleService-Info.plist */; };
+		FD6CAEC31D6675C400F16BE7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6CAEC21D6675C400F16BE7 /* LoginViewController.swift */; };
+		FD6CAEC51D66808B00F16BE7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6CAEC41D66808B00F16BE7 /* ProfileViewController.swift */; };
+		FD6CAEC91D668AE800F16BE7 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6CAEC81D668AE800F16BE7 /* PostCell.swift */; };
+		FD6CAECE1D687CAC00F16BE7 /* TipsyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6CAECD1D687CAC00F16BE7 /* TipsyView.swift */; };
+		FD6CAED11D68937900F16BE7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6CAED01D68937900F16BE7 /* Constants.swift */; };
+		FDC739F01D6A34B200356785 /* GeoFire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC739EF1D6A34B200356785 /* GeoFire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +61,12 @@
 		FD14EAB21D63DD3D0014BB3E /* TipsyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsyUITests.swift; sourceTree = "<group>"; };
 		FD14EAB41D63DD3D0014BB3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD14EAC01D63EBA70014BB3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FD6CAEC21D6675C400F16BE7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FD6CAEC41D66808B00F16BE7 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FD6CAEC81D668AE800F16BE7 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		FD6CAECD1D687CAC00F16BE7 /* TipsyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsyView.swift; sourceTree = "<group>"; };
+		FD6CAED01D68937900F16BE7 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FDC739EF1D6A34B200356785 /* GeoFire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GeoFire.framework; path = "../../Library/Developer/Xcode/DerivedData/Tipsy-etynsiltrcwvsnazskiichvjcbxq/Build/Products/Debug-iphonesimulator/GeoFire/GeoFire.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDC739F01D6A34B200356785 /* GeoFire.framework in Frameworks */,
 				A1B46A56E6C69D25F86CEA35 /* Pods_Tipsy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +108,7 @@
 		48535CD051F3F90CE88094E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FDC739EF1D6A34B200356785 /* GeoFire.framework */,
 				582B121BC93A54A48A773C9F /* Pods_Tipsy.framework */,
 			);
 			name = Frameworks;
@@ -126,13 +140,16 @@
 		FD14EA8F1D63DD3D0014BB3E /* Tipsy */ = {
 			isa = PBXGroup;
 			children = (
+				FDC739EB1D6A26B000356785 /* Services */,
+				FD6CAECF1D68936B00F16BE7 /* Util */,
+				FD6CAECC1D668F6600F16BE7 /* View */,
+				FD6CAECB1D668F5500F16BE7 /* Model */,
+				FD6CAECA1D668F3D00F16BE7 /* Controllers */,
 				FD14EA901D63DD3D0014BB3E /* AppDelegate.swift */,
-				FD14EA921D63DD3D0014BB3E /* FirstViewController.swift */,
-				FD14EA941D63DD3D0014BB3E /* SecondViewController.swift */,
-				FD14EA961D63DD3D0014BB3E /* Main.storyboard */,
 				FD14EA991D63DD3D0014BB3E /* Assets.xcassets */,
 				FD14EA9B1D63DD3D0014BB3E /* LaunchScreen.storyboard */,
 				FD14EA9E1D63DD3D0014BB3E /* Info.plist */,
+				FD14EA961D63DD3D0014BB3E /* Main.storyboard */,
 			);
 			path = Tipsy;
 			sourceTree = "<group>";
@@ -153,6 +170,48 @@
 				FD14EAB41D63DD3D0014BB3E /* Info.plist */,
 			);
 			path = TipsyUITests;
+			sourceTree = "<group>";
+		};
+		FD6CAECA1D668F3D00F16BE7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FD14EA921D63DD3D0014BB3E /* FirstViewController.swift */,
+				FD14EA941D63DD3D0014BB3E /* SecondViewController.swift */,
+				FD6CAEC21D6675C400F16BE7 /* LoginViewController.swift */,
+				FD6CAEC41D66808B00F16BE7 /* ProfileViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FD6CAECB1D668F5500F16BE7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD6CAEC81D668AE800F16BE7 /* PostCell.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FD6CAECC1D668F6600F16BE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD6CAECD1D687CAC00F16BE7 /* TipsyView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FD6CAECF1D68936B00F16BE7 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				FD6CAED01D68937900F16BE7 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		FDC739EB1D6A26B000356785 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,9 +397,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD6CAEC31D6675C400F16BE7 /* LoginViewController.swift in Sources */,
 				FD14EA951D63DD3D0014BB3E /* SecondViewController.swift in Sources */,
+				FD6CAECE1D687CAC00F16BE7 /* TipsyView.swift in Sources */,
+				FD6CAEC51D66808B00F16BE7 /* ProfileViewController.swift in Sources */,
 				FD14EA911D63DD3D0014BB3E /* AppDelegate.swift in Sources */,
 				FD14EA931D63DD3D0014BB3E /* FirstViewController.swift in Sources */,
+				FD6CAEC91D668AE800F16BE7 /* PostCell.swift in Sources */,
+				FD6CAED11D68937900F16BE7 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,8 +551,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tipsy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.TryTipsy.Tipsy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tipsy.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -500,8 +565,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tipsy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.TryTipsy.Tipsy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tipsy.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

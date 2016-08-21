@@ -10,6 +10,8 @@ target 'Tipsy' do
 pod 'Firebase'
 pod 'Firebase/Analytics'
 pod 'Firebase/Auth'
+pod 'Firebase/Database'
+pod 'GeoFire' , :git => 'https://github.com/firebase/geofire-objc.git'
 pod 'Alamofire'
 pod 'FBSDKCoreKit'
 pod 'FBSDKShareKit'
